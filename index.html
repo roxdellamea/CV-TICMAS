@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>CV - TICMAS</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#experiencia">Experiencia</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="modo">
+                    <label for="toggle" id="label"><i class="fa-solid fa-moon"></i></label>
+                    <input type="checkbox" id="toggle">
+                </div>
+            </header>
+            <div class="info"></div>
+            <div class="foto">
+                <img src="img/foto.png" alt="Foto Perfil">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion" id="titulo"></h2>
+            
+            <p id="dato"></p>
+
+            
+            <div class="datos">
+                <ul>
+                    <li id="nombre"><i class="fa-regular fa-user"></i></li>
+                    <li id="email"><i class="fa-regular fa-envelope"></i></li>
+                    <li id="fecha_nac"><i class="fa-regular fa-calendar-days"></i></li>
+                    <li id="direccion"><i class="fa-solid fa-location-dot"></i></li>
+                    <li id="web"><i class="fa-solid fa-globe"></i></li>
+                    <li id="github"><i class="fa-brands fa-github"></i></li>   
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/html5.png" alt="Logo HTML5" width="100px">
+                    <span class="titulo-detalle">HTML</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+                <div class="col">
+                    <img src='img/css3.png' alt='Logo CSS3' width="100px"/>
+                    <span class="titulo-detalle">CSS3</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+                <div class="col">
+                    <img src='img/javascript.png' alt='Logo JavaScript' width="100px"/>
+                    <span class="titulo-detalle">JavaScript</span>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, provident esse. Nesciunt quod eveniet dolorem necessitatibus iure, suscipit similique provident fugiat excepturi commodi</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION EXPERIENCIA -->
+    <section class="experiencia" id="experiencia">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Experiencia</h2>
+            <h3></h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2015 - 2018</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Tecnicatura Universitaria en Programación</h4>
+                                <p>U.T.N. - FRRe</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2019 - 2022</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Desarrollo Frontend</h4>
+                                <p>Miriadax</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Terapixel NEA</h4>
+                                <p>Desarrollador Web Semi Señor</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 Año</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Software Dev</h4>
+                                <p>Desarrollador Web Junior</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="cvpdf">
+                <a href="pdf/cv-web.pdf" download><h2><i class="fa-solid fa-file-pdf"></i> Descargar CV </h2></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">362 - 447 5599</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">mariaacosta@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-brands fa-square-whatsapp"></i> WhatsApp
+                    </h2>
+                    <span class="info-contacto">362-433 5599</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
